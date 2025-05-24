@@ -15,3 +15,4 @@ MonoBehaviour:
   musicName: Love
   animationName: Footwork
   notesConfig: {fileID: 0}
+  speed: 14

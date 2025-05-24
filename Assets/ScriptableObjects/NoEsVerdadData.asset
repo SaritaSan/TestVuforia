@@ -14,4 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   musicName: No es verdad
   animationName: FreezeVar
-  notesConfig: {fileID: 0}
+  notesConfig: {fileID: 4900000, guid: 9a3548109b14a014b839e2a91df59adf, type: 3}
+  speed: 16
