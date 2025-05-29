@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   musicName: Love
   animationName: Footwork
-  notesConfig: {fileID: 0}
-  speed: 14
+  notesConfig: {fileID: 4900000, guid: ec2994f3dc8aba646bcf837e329801ff, type: 3}
+  speed: 150
