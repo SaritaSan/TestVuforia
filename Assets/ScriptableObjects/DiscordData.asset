@@ -15,4 +15,4 @@ MonoBehaviour:
   musicName: Discord
   animationName: Break
   notesConfig: {fileID: 4900000, guid: 664f8911beebcfb47a90d75510632096, type: 3}
-  speed: 150
+  speed: 200
