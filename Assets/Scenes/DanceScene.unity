@@ -1112,6 +1112,51 @@ Transform:
   m_Children: []
   m_Father: {fileID: 637935947}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &280870074
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 280870076}
+  - component: {fileID: 280870075}
+  m_Layer: 0
+  m_Name: InstantiateOther
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &280870075
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 280870074}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a51f3a5b0f373942a764826155ffe2e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectToInstantiate: {fileID: 5112403345868107898, guid: 6f34ef0d986e9db4199cf75805f79753, type: 3}
+--- !u!4 &280870076
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 280870074}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.010178456, y: 0.05624287, z: -0.030310154}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &294772247
 GameObject:
   m_ObjectHideFlags: 0
@@ -2178,7 +2223,7 @@ MonoBehaviour:
         m_MethodName: OnSelectedDance
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 11400000, guid: 787066dce6c7c5d40973bde2cecf3bbb, type: 2}
+          m_ObjectArgument: {fileID: 11400000, guid: 1c81b06498abe31488f1ce593e14f49e, type: 2}
           m_ObjectArgumentAssemblyTypeName: SoundData, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -4534,6 +4579,18 @@ MonoBehaviour:
           m_StringArgument: Win
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 280870075}
+        m_TargetAssemblyTypeName: InstatiateObject, Assembly-CSharp
+        m_MethodName: Instantiate
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1486339328}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Transform, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Win
+          m_BoolArgument: 0
+        m_CallState: 2
   _onLoseSong:
     m_PersistentCalls:
       m_Calls:
@@ -5262,6 +5319,7 @@ SceneRoots:
   - {fileID: 1366447621}
   - {fileID: 487710428}
   - {fileID: 246929847}
+  - {fileID: 280870076}
   - {fileID: 1966076018}
   - {fileID: 373520623}
   - {fileID: 1816213925}
